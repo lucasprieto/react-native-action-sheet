@@ -26,5 +26,8 @@
     "repository": {
         "type": "git",
         "url": "git://github.com/remobile/react-native-action-sheet.git"
+    },
+    "dependencies": {
+        "create-react-class": "^15.6.3"
     }
 }

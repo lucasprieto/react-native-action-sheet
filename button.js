@@ -6,9 +6,10 @@
 
 const React = require('react');
 const ReactNative = require('react-native');
+const createReactClass = require('create-react-class');
 const { StyleSheet, Text, TouchableOpacity, View } = ReactNative;
 
-module.exports = React.createClass({
+module.exports = createReactClass({
     render: function () {
         return (
             <TouchableOpacity

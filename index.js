@@ -7,12 +7,13 @@ const {
     TouchableOpacity,
     View,
 } = ReactNative;
+const createReactClass = require('create-react-class');
 
 const Button = require('./button.js');
 const Overlay = require('./overlay.js');
 const Sheet = require('./sheet.js');
 
-module.exports = React.createClass({
+module.exports = createReactClass({
     getDefaultProps: function () {
         return {
             cancelText: 'Cancel',

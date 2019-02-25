@@ -19,11 +19,12 @@ var {
     TouchableOpacity,
     View,
 } = ReactNative;
+var createReactClass = require('create-react-class');
 
 var ActionSheet = require('@remobile/react-native-action-sheet');
 var Button = require('@remobile/react-native-simple-button');
 
-module.exports = React.createClass({
+module.exports = createReactClass({
     getInitialState() {
         return {
             show: false
